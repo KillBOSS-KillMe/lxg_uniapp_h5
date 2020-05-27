@@ -15,7 +15,7 @@
 			</view>
 			<view class="item">
 				<label>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格</label>
-				<input type="number" value="" data-name="price" @input="getSetData" placeholder="请填写价格" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="price" @input="getSetData" placeholder="请填写价格" placeholder-class="placeholderSty" />
 			</view>
       <view class="item">
       	<label>行 业 分 类</label>
@@ -41,7 +41,7 @@
 				<label>图 片 上 传</label>
 				<view class="imgList">
 					<image :src="item" mode="" v-for="(item, index) in imagesShow" :key="index"></image>
-					<image src="../../static/img/img3.png" mode="" @tap="uploadImg" v-if="images.length <= 0"></image>
+					<image src="../../static/img/img3.png" mode="" @tap="uploadImg" v-if="imagesShow.length <= 0"></image>
 				</view>
 			</view>
 		</view>
@@ -126,7 +126,8 @@ export default {
 				success: res => {
 					uni.showToast({
 						title: '图片上传中',
-						icon: 'loading'
+						icon: 'loading',
+            duration: 20000
 					});
 					Promise.all(
 						res.tempFiles.map(item => {

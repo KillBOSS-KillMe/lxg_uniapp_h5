@@ -72,14 +72,13 @@ export default {
     },
 		tab(e) {
 			if (this.currentIndex != e) {
-				// this.navIdx = e
 				this.currentIndex = e;
 				this.list = []; // 在这里手动置空列表,可显示加载中的请求进度
-        
+        this.pageNnm = 1
         if (e == 0) { // 招聘
-          that.listUrl = `${api.URL}/api/recruitSearch`
+          this.listUrl = `${api.URL}/api/recruitSearch`
         } else { // 求职
-          that.listUrl = `${api.URL}/api/jobWantedSearch`
+          this.listUrl = `${api.URL}/api/jobWantedSearch`
         }
         this.getList()
 			}

@@ -95,7 +95,8 @@ export default {
 				success: res => {
 					uni.showToast({
 						title: '图片上传中',
-						icon: 'loading'
+						icon: 'loading',
+            duration: 20000
 					});
 					Promise.all(
 						res.tempFiles.map(item => {
