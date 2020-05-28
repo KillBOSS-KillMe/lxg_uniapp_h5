@@ -117,7 +117,7 @@
         success: (res1) => {},
         complete: (res1) => {
           if(res1.data == '') {
-            // that.login()
+            that.login()
           }
         }
       });
