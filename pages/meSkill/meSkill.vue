@@ -14,7 +14,7 @@
 				<block v-for="(item, index) in list" :key="index">
 					<view class="item" @tap="go(item.id)">
 						<image v-if="currentIndex == 0" :src="IMG_URL + item.logo" mode=""></image>
-						<image v-else :src="item.avatar" mode=""></image>
+						<image v-else :src="IMG_URL + item.avatar" mode=""></image>
 						<view class="rigth">
 							<view class="top">
 								<text>{{ item.name }}</text>

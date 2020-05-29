@@ -1,6 +1,6 @@
 // var  URL = "http://www.lxg.com"
-var URL = "http://xtn.beaconway.cn"
-var IMG_URL = "http://xtn.beaconway.cn/uploads/"
+var URL = "https://xtn.beaconway.cn"
+var IMG_URL = "https://xtn.beaconway.cn/uploads/"
 //B    MXXIII
 module.exports = {
 	URL: URL,

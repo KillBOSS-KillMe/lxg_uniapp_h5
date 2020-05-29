@@ -74,7 +74,7 @@
     },
     "h5" : {
         "title" : "理想国",
-        "domain" : "http://xtn.beaconway.cn",
+        "domain" : "https://xtn.beaconway.cn",
         "router" : {
             "mode" : "history"
         },

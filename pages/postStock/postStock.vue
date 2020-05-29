@@ -30,35 +30,35 @@
 			</view>
 			<view class="item">
 				<label>去年营业额</label>
-				<input type="number" value="" data-name="turnover" @input="getSetData" placeholder="请填写去年营业额" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="turnover" @input="getSetData" placeholder="请填写去年营业额" placeholder-class="placeholderSty" />
 			</view>
 			<view class="item">
 				<label>企业净资产</label>
-				<input type="number" value="" data-name="assets" @input="getSetData" placeholder="请填写企业净资产" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="assets" @input="getSetData" placeholder="请填写企业净资产" placeholder-class="placeholderSty" />
 			</view>
 			<view class="item">
 				<label style="letter-spacing: 7upx;">融资金额</label>
-				<input type="number" value="" data-name="financing_amount" @input="getSetData" placeholder="请填写融资金额" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="financing_amount" @input="getSetData" placeholder="请填写融资金额" placeholder-class="placeholderSty" />
 			</view>
 			<view class="item">
 				<label style="letter-spacing: 7upx;">总投金额</label>
-				<input type="number" value="" data-name="total_financing_amount" @input="getSetData" placeholder="请填写总投金额" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="total_financing_amount" @input="getSetData" placeholder="请填写总投金额" placeholder-class="placeholderSty" />
 			</view>
 		</view>
 		<view class="form" style="margin-bottom: 90upx;">
 			<view class="item">
 				<label>融资用途</label>
-				<input type="number" value="" data-name="purpose" @input="getSetData" placeholder="请填写融资用途" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="purpose" @input="getSetData" placeholder="请填写融资用途" placeholder-class="placeholderSty" />
 			</view>
 
 			<view class="item">
 				<label>意向资金</label>
-				<input type="number" value="" data-name="intention" @input="getSetData" placeholder="请填写意向资金" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="intention" @input="getSetData" placeholder="请填写意向资金" placeholder-class="placeholderSty" />
 			</view>
 
 			<view class="item">
 				<label style="letter-spacing: 10upx;">联系人</label>
-				<input type="number" value="" data-name="contacts" @input="getSetData" placeholder="请填写联系人" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="contacts" @input="getSetData" placeholder="请填写联系人" placeholder-class="placeholderSty" />
 			</view>
 
 			<view class="item">
@@ -68,12 +68,12 @@
 
 			<view class="item">
 				<label>融资方式</label>
-				<input type="number" value="" data-name="financing_mode" @input="getSetData" placeholder="请填写融资方式" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="financing_mode" @input="getSetData" placeholder="请填写融资方式" placeholder-class="placeholderSty" />
 			</view>
 
 			<view class="item">
 				<label>项目概述</label>
-				<input type="number" value="" data-name="summary" @input="getSetData" placeholder="请填写项目概述" placeholder-class="placeholderSty" />
+				<input type="text" value="" data-name="summary" @input="getSetData" placeholder="请填写项目概述" placeholder-class="placeholderSty" />
 			</view>
 			<view class="item" style="align-items: flex-start;">
 				<label style="letter-spacing: 10upx;">计划书</label>
